@@ -1,0 +1,31 @@
+/*********************
+Home
+*********************/
+article.home-menu {
+    div.columns {
+        margin-bottom: 10px;
+    }
+}
+/*********************
+Animations
+*********************/
+.linear-wipe {
+    font-size: 20px;
+    background: linear-gradient(to right, #FFF 20%, #ff5e00 40%, #1bff00 60%, #FFF 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5s linear infinite;
+    @keyframes shine {
+        to {
+            background-position: 200% center;
+        }
+    }
+}
+
+ul.categoria-blog {
+    list-style: none;
+}
